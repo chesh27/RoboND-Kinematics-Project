@@ -1,5 +1,12 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 # Robotic arm - Pick & Place project
+[//]: # (Image References)
+
+[image1]: ./misc_images/misc1.png
+[image2]: ./misc_images/misc3.png
+[image3]: ./misc_images/misc2.png
+![alt text][image1]
+
 This is the second project of the Udacity Robotics Software Engineer Nanodegree. This project contains code to perform Inverse Kinematics, meaning given a list of end-effector poses, joint angles for the Kuka KR210 are calculated.
 
 The first goal is to setup the environment properly. Then I explore the forward_kinematics with Kuka KR210 to learn more about the robot's geometry and derive DH parameters. Once I have the DH parameters, I run the complete pick and place project in demo mode to get an understanding of the complete project scenario.
@@ -91,6 +98,7 @@ Once Gazebo and rviz are up and running, make sure you see following in the gaze
 	
 	- Dropbox right next to the robot
 	
+![alt text][image2]
 
 Once all these items are confirmed, open rviz window, hit Next button.
 
@@ -103,4 +111,6 @@ The demo ends when the robot arm reaches at the top of the drop location.
 There is no loopback implemented yet, so you need to close all the terminal windows in order to restart.
 
 In case the demo fails, close all three terminal windows and rerun the script.
+
+![alt text][image3]
 
