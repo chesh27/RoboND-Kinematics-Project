@@ -1,7 +1,14 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 # Robotic arm - Pick & Place project
+This is the second project of the Udacity Robotics Software Engineer Nanodegree. This project contains code to perform Inverse Kinematics, meaning given a list of end-effector poses, joint angles for the Kuka KR210 are calculated.
 
-Make sure you are using robo-nd VM or have Ubuntu+ROS installed locally.
+The first goal is to setup the environment properly. Then I explore the forward_kinematics with Kuka KR210 to learn more about the robot's geometry and derive DH parameters. Once I have the DH parameters, I run the complete pick and place project in demo mode to get an understanding of the complete project scenario.
+
+Next I perform Kinematic Analysis of the robot. I decouple the Inverse Kinematics problem into Inverse Position Kinematics and Inverse Orientation Kinematics and thus derive equations for individual joint angles. In addition, I write the actual Inverse Kinematics code inside of IK_server.py file (kuka_arm/scripts). 
+
+Finally, a brief writeup report is presented, including diagrams of the Kuka KR210 and it's DH paramaters, calculation of the individual transformation matrices about each joint and a generalized homogenous transform between the base link and the gripper link.  
+
+Below are the detailed step by step project setup instructions. 
 
 ### One time Gazebo setup step:
 Check the version of gazebo installed on your system using a terminal:
@@ -84,8 +91,6 @@ Once Gazebo and rviz are up and running, make sure you see following in the gaze
 	
 	- Dropbox right next to the robot
 	
-
-If any of these items are missing, report as an issue.
 
 Once all these items are confirmed, open rviz window, hit Next button.
 
