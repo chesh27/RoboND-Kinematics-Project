@@ -3,8 +3,7 @@
 [//]: # (Image References)
 
 [image1]: ./misc_images/misc1.png
-[image2]: ./misc_images/misc3.png
-[image3]: ./misc_images/misc2.png
+[image2]: ./misc_images/misc2.png
 ![alt text][image1]
 
 This is the second project of the Udacity Robotics Software Engineer Nanodegree. This project contains code to perform Inverse Kinematics, meaning given a list of end-effector poses, joint angles for the Kuka KR210 are calculated.
@@ -112,5 +111,5 @@ There is no loopback implemented yet, so you need to close all the terminal wind
 
 In case the demo fails, close all three terminal windows and rerun the script.
 
-![alt text][image3]
+
 
