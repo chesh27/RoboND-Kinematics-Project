@@ -6,6 +6,7 @@
 [image2]: ./misc_images/misc2.png
 ![alt text][image1]
 
+
 This is the second project of the Udacity Robotics Software Engineer Nanodegree. This project contains code to perform Inverse Kinematics, meaning given a list of end-effector poses, joint angles for the Kuka KR210 are calculated.
 
 The first goal is to setup the environment properly. Then I explore the forward_kinematics with Kuka KR210 to learn more about the robot's geometry and derive DH parameters. Once I have the DH parameters, I run the complete pick and place project in demo mode to get an understanding of the complete project scenario.
